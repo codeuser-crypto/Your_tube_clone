@@ -2,7 +2,6 @@ import React from 'react'
 import './Showvideo.css'
 import { Link } from 'react-router-dom'
 import moment from "moment"
-import
 const Showvideo = ({vid}) => {
     // console.log(vid)
   return (
