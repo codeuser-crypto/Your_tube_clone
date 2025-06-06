@@ -2,7 +2,7 @@ import users from "../Models/Auth.js"
 import jwt from "jsonwebtoken"
 export const login = async (req, res) => {
     const { email } = req.body;
-    // console.log(email)
+    //console.log(email)
     try {
         const extinguser = await users.findOne({ email })
         if (!extinguser) {
